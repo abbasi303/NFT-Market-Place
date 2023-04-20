@@ -1,0 +1,115 @@
+#paymentmain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #ccc;
+  margin-top: 100px;
+}
+
+#form_main input[type="text"],
+#form_main input[type="password"],
+#form_main input[type="date"],
+#form_main select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+
+#form_main input[type="text"]:focus,
+#form_main input[type="password"]:focus,
+#form_main input[type="date"]:focus,
+#form_main select:focus {
+  border-bottom: 2px solid #2196F3;
+}
+
+#form_main label {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+#form_main span {
+  color: red;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#form_main select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+
+#form_main select:focus {
+  border-bottom: 2px solid #2196F3;
+}
+
+#form_main #qrpic {
+  width: 200px;
+  margin: 20px;
+}
+
+#form_main input[type="submit"] {
+  width: 100%;
+  background-color: #2196F3;
+  color: #fff;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+
+#form_main input[type="submit"]:hover {
+  background-color: #0b7dda;
+}
+
+@media screen and (max-width: 600px) {
+  #form_main {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #form_main {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #form_main {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #form_main {
+    width: 60%;
+  }
+}

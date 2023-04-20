@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "routes": [
+      { "src": "/$", "dest": "api/index.php" },
+      { "src": "/login$", "dest": "api/login.php" },
+      { "src": "/paymentform$", "dest": "api/paymentform.php" },
+      { "src": "/products$", "dest": "api/products.php" },
+      { "src": "/signup$", "dest": "api/signup.php" },
+
+
+      { "src": "/(.*)", "dest": "$1" }
+    ],
+    "functions": {
+      "*.php": {
+        "runtime": "vercel-php@0.6.0"
+      }
+    }
+  }
+  

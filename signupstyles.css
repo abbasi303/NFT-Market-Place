@@ -1,0 +1,163 @@
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height:100%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ccc;
+    margin-top: 100px;
+}
+
+/* Form Inputs */
+.signup input[type="text"],
+.signup input[type="password"],
+.signup input[type="date"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    transition: all 0.3s ease;
+}
+
+/* Add effect on focus */
+.signup input[type="text"]:focus,
+.signup input[type="password"]:focus,
+.signup input[type="date"]:focus {
+    border-bottom: 2px solid #2196F3;
+}
+
+/* Form Labels */
+.signup label {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+}
+
+/* Error Message */
+.signup span {
+    color: red;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Radio button */
+.register-contianer {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* hide the browser's default radio button */
+.register-contianer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+/* on hover, the radio button's checkmark changes color */
+.register-contianer:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.register-contianer input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Custom checkmark */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+
+
+.register-contianer input:checked ~ .checkmark:after {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.register-contianer .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Responsive layout */
+@media (max-width: 600px) {
+    .signup {
+        width: 90%;
+    }
+}
+span{
+    margin-top:10px;
+    margin-right: -10px;
+}
+
+.checkmark {
+    margin-right: 10px;
+    margin-left: -20px;
+
+}
+/* Register button */
+.signup input[type="submit"] {
+    background-color: green;
+    color: white; 
+    width: 250px;
+    height: 100px;
+    border-radius: 5px; 
+    font-size: 16px; /* set the font size */
+    cursor: pointer; 
+    transition: all 0.3s ease; /* add a transition effect */
+    margin-top: 30px;
+    padding: 0px;
+    
+}
+ 
+
+.signup input[type="submit"]:hover {
+    background-color: #4CAF50; 
+}
+
+
+

@@ -1,0 +1,17 @@
+footer{
+    background-color: #7B68EE;
+    color: white;
+    width: 100%;
+}
+
+footer {
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    left:0;
+    top:0;
+    width: 100%;
+    z-index:1;
+    margin: 0% auto;
+    
+}
