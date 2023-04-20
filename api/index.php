@@ -17,7 +17,7 @@
 
 <section class="container-fluid" id="bg-video" style="position:relative">
   <div class="embed-responsive embed-responsive-16by9" >
-    <video src="/../images\video.mp4" class="embed-responsive-item" autoplay loop muted>
+    <video src="../images/video.mp4" class="embed-responsive-item" autoplay loop muted>
     </video>
   </div>
 </section>
