@@ -16,7 +16,7 @@
 
 <section class="container-fluid" id="bg-video" style="position:relative">
   <div class="embed-responsive embed-responsive-16by9" >
-    <video src="../images/video.mp4" class="embed-responsive-item" autoplay loop muted>
+    <video src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVvF5fjfS1HDZfaDtSueLlUdPyooX9AXzW3Oaop7ZXMxoNcPVg" class="embed-responsive-item" autoplay loop muted>
     </video>
   </div>
 </section>
