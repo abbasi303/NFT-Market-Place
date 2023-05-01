@@ -15,10 +15,9 @@
 
 
 <section class="container-fluid" id="bg-video" style="position:relative">
-  <div class="embed-responsive embed-responsive-16by9" >
-    <video src="/../images/artwork-min.png" class="embed-responsive-item" autoplay loop muted>
-    </video>
-  </div>
+<div class="embed-responsive embed-responsive-16by9">
+            <img class="img-fluid" src="/../images/artwork-min.png" alt="">
+        </div>
 </section>
 
 
@@ -41,7 +40,7 @@
 
     <section class="container-fluid" id="about">
         <div class="about.img" id="aboutpage">
-            <img class="img-fluid" src="/../images/about.png">
+            <img class="img-fluid" src="/../images/about.png" alt="">
         </div>
         <div class="about-text">
             <h2>Lorem ipsum</h2>
