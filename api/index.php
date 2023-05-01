@@ -41,7 +41,7 @@
 
     <section class="container-fluid" id="about">
         <div class="about.img" id="aboutpage">
-            <img class="img-fluid" src="/../images/about.png">
+            <img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVvF5fjfS1HDZfaDtSueLlUdPyooX9AXzW3Oaop7ZXMxoNcPVg">
         </div>
         <div class="about-text">
             <h2>Lorem ipsum</h2>
